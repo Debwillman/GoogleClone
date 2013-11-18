@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Here ends CSS Reset*/
+
+/*the body positioning*/
+body {
+	background-color:#ffffff;
+	height:auto;
+	margin:auto;
+	padding:10px;
+}
+
+
+/*This sizes my images*/
+img{
+	font-size:10px;
+	}
+
+/*This makes my top right list horizontal*/
+#Row {
+	display:inline;
+	width:800px;
+	height: 40px;
+	font-size:15px;
+	text-align:center;
+	padding:15px;
+	
+}
+
+/*This makes my top right list positioned*/
+#Row ul {
+	height: auto;
+	padding:5px 0px 0px 0px;
+	margin:0px;
+	width:auto;
+	margin-top:15px;
+	display:inline;
+}
+
+/*This makes my top right list positioned*/
+#Row li {
+	display: inline;
+	padding: 15px 7px 7px 7px;
+	width:auto;
+	margin-top:15px;
+
+}
+
+/*This give my top right list no decoration*/
+#Row a {
+	text-decoration:none;
+	display:inline;
+	
+}
+
+/*This makes my hover work on the top right row list*/
+#row a:hover {
+	color: #f90;
+	
+}
+
+/*This give all my ul's positioning*/
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:inline;
+	overflow:hidden;
+	
+}
+
+/*This makes my lists horizontal*/
+li {
+	display:inline;
+	word-spacing:50px;
+}
+
+/*This make the box in top right list sized and aligned*/
+.box {
+	width:25px;
+	height:25px;
+	align:middle;\
+	display:inline;
+	
+	
+}
+
+/*This gives the person pic in top right list sized*/
+.person {
+	width:25px;
+	height:25px;
+	display:inline;
+}
+
+/*This gives the bell pic in top right list sized*/
+.bell {
+	width:25px;
+	height:25px;
+	display:inline;
+	
+}
+
+/*This make Google pic sized and positioned*/
+.displayed {
+		display: inline;
+        margin-left: 550px;
+        margin-right: auto;
+		margin-top: 100px;
+		width:300px;
+		height:150px;
+		
+		
+}
+
+/*This make my nav bar align right*/
+nav {
+	color:#ececec;
+	text-align:right;
+	width:100%;
+	
+}
+
+/*This gives my text box positioning*/
+.text {
+        display: block;
+        margin-left: 325px;
+        margin-right: auto;
+		height:10px;
+		
+}
+
+
+/*This give my text box color, height, and width*/
+input[type="search"] {
+    width: 700px;
+    height: 35px;
+   
+	
+	
+}
+
+
+/*This is the class for my google search box and gives more positioning*/
+.ButtonGoogle {
+	Width: 800px;
+	Height:auto;
+	background-color:#ffffff;
+	margin-top:60px;
+	margin-left:575px;
+	display:inline-block;
+	font-size:10px;
+}
+
+#Feeling {
+	margin-left:15px;
+}
+
+/*This give my footer background color and width*/
+#footer1 {
+	margin-top:210px;
+	background-color:#F8F0F0;
+	display:inline-block;
+	padding:30px 7px 7px 7px;
+	height:10px;
+	width:101%;
+	
+}
+
+	
+/*This give my footer padding and color and positioning*/
+.LeftFooter{
+	
+	height:20px;
+	position:absolute;
+	bottom:0;
+	word-spacing:20px;
+	text-align: Left;
+	clear:both;
+	font-size:85%;
+	display:inline;
+	padding: 15px 7px 7px 7px;
+	
+	
+	
+}
+
+/*This makes the footer underlined when hovering over it*/
+li:hover{
+	text-decoration:underline;
+}
+
+/*This make the hover work*/
+li:active {
+	text-decoration:underline;
+}
+
+/*This gives the right footer color, size, and positioning*/
+.RightFooter{
+	height:20px;
+	position:Absolute;
+	bottom:0;
+	Right:10px;
+	text-align: Right;
+	word-spacing:20px;
+	clear:both;
+	font-size:85%;
+	padding:15px 7px 7px 7px;
+	display:inline;
+	
+	
+	
+}
+
+/*This give color to my buttons google search and I'm feeling good*/
+span {
+	background-color:#F8F0F0;
+	font-size:15px;
+	padding:10px 7px 7px 7px;
+	width:225%;
+	
+}
+
+/*Coloring of the word New in my footer*/
+.color {
+	color:red;
+}
+
+/*This gives all my a's the color grey and word spacing*/
+a {
+	font-family: Gerdana;
+	Color:Grey;
+	text-decoration:none;
+	word-spacing:30px;
+	align:"middle";
+	
+}
+
+/*This makes any a element underlined when hovering over it*/
+a:hover {
+	text-decoration:underline;
+}
+
+/*This make the hover work*/
+a:active {
+	text-decoration:underline;
+}
