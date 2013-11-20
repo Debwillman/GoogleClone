@@ -68,8 +68,8 @@ img{
 	width:800px;
 	height: 40px;
 	font-size:15px;
-	text-align:center;
 	padding:15px;
+	vertical-align:middle;
 	
 }
 
@@ -81,6 +81,7 @@ img{
 	width:auto;
 	margin-top:15px;
 	display:inline;
+	
 }
 
 /*This makes my top right list positioned*/
@@ -89,6 +90,7 @@ img{
 	padding: 15px 7px 7px 7px;
 	width:auto;
 	margin-top:15px;
+	
 
 }
 
@@ -96,6 +98,7 @@ img{
 #Row a {
 	text-decoration:none;
 	display:inline;
+	
 	
 }
 
@@ -112,6 +115,7 @@ ul {
 	padding:0;
 	display:inline;
 	overflow:hidden;
+	text-align:center;
 	
 }
 
@@ -119,15 +123,16 @@ ul {
 li {
 	display:inline;
 	word-spacing:50px;
+	text-align:center;
 }
 
 /*This make the box in top right list sized and aligned*/
 .box {
 	width:25px;
 	height:25px;
-	align:middle;\
+	text-align:center;
 	display:inline;
-	
+	vertical-align:middle;
 	
 }
 
@@ -136,6 +141,7 @@ li {
 	width:25px;
 	height:25px;
 	display:inline;
+	vertical-align:middle;
 }
 
 /*This gives the bell pic in top right list sized*/
@@ -143,16 +149,16 @@ li {
 	width:25px;
 	height:25px;
 	display:inline;
+	vertical-align:middle;
 	
 }
 
 /*This make Google pic sized and positioned*/
 .displayed {
-		display: inline;
-        margin-left: 550px;
+		display: block;
+        margin-left: auto;
         margin-right: auto;
 		margin-top: 100px;
-		width:300px;
 		height:150px;
 		
 		
@@ -168,8 +174,8 @@ nav {
 
 /*This gives my text box positioning*/
 .text {
-        display: block;
-        margin-left: 325px;
+        display: inline;
+        margin-left: 350px;
         margin-right: auto;
 		height:10px;
 		
@@ -203,12 +209,18 @@ input[type="search"] {
 
 /*This give my footer background color and width*/
 #footer1 {
-	margin-top:210px;
+	
 	background-color:#F8F0F0;
-	display:inline-block;
-	padding:30px 7px 7px 7px;
+	display:block;
+	padding:30px 0px 0px 0px;
 	height:10px;
-	width:101%;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	vertical-align: baseline;
+	clear:both;
+	left:-2px;
+	border-top: 1px solid #e4e4e4;
 	
 }
 
@@ -224,7 +236,10 @@ input[type="search"] {
 	clear:both;
 	font-size:85%;
 	display:inline;
-	padding: 15px 7px 7px 7px;
+	padding: 10px 7px 7px 7px;
+	
+
+	
 	
 	
 	
@@ -245,13 +260,14 @@ li:active {
 	height:20px;
 	position:Absolute;
 	bottom:0;
-	Right:10px;
+	right:5%;
 	text-align: Right;
 	word-spacing:20px;
 	clear:both;
 	font-size:85%;
-	padding:15px 7px 7px 7px;
+	padding:10px 7px 7px 7px;
 	display:inline;
+	
 	
 	
 	
@@ -277,7 +293,7 @@ a {
 	Color:Grey;
 	text-decoration:none;
 	word-spacing:30px;
-	align:"middle";
+	text-align:center;
 	
 }
 
