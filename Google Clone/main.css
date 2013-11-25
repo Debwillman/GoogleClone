@@ -174,10 +174,10 @@ nav {
 
 /*This gives my text box positioning*/
 .text {
-        display: inline;
-        margin-left: 350px;
+       margin-left: auto;
         margin-right: auto;
-		height:10px;
+	text-align:center;
+	height:10px;
 		
 }
 
